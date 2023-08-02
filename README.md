@@ -12,21 +12,22 @@ Get more info at https://x2po.org/wild-space
 
 Up-to-date rules and PnP materials should be gathered from the latest release page
 
-## Rules source
+## Rules
 
 - [Initial project for rules document](/Wild%20Space%20rules.ai)
 - [WEB-friendly read-only version](/Wild%20Space%20rules.pdf)
 
-## Wild Space components source
+## Wild Space components
 
 ### WEB
 
-[WS game components ready to be exported and usend in your web-resource](/Wild%20Space%20components.pdf)
+[Editable vector project in PDF](/Wild%20Space%20components.pdf) with all the components ready to pe exported.
+[PNGs](/Wave%201%20PNG%20IMG/) if you don't worry about scaling.
 
 ### Print
 
-[Family-friendly PnP PDF. Take it if you want to print it.](/Wild%20Space%20Wave%201%20FF-PNP%20ready%20A4.pdf)
+[Family-friendly PnP PDF](/Wild%20Space%20Wave%201%20FF-PNP%20ready%20A4.pdf) - Take it if you want to print Wild Space cards and tokens. (Get you nail clippers ready)
 
 ### Editing
 
-Install fronts missin on your system from [Fonts](/Fonts/) dir.
+Install fronts missin on your system from [Fonts](/Fonts/) dir if you want to play with vector.
