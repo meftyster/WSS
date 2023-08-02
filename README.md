@@ -14,19 +14,19 @@ Up-to-date rules and PnP materials should be gathered from the latest release pa
 
 ## Rules source
 
-- [Initial project for rules document](Wild Space rules.ai)
-- [WEB-friendly read-only version](Wild Space rules.pdf)
+- [Initial project for rules document](/Wild%20Space%20rules.ai)
+- [WEB-friendly read-only version](/Wild%20Space%20rules.pdf)
 
 ## Wild Space components source
 
 ### WEB
 
-[WS game components ready to be exported and usend in your web-resource](Wild Space components.pdf)
+[WS game components ready to be exported and usend in your web-resource](/Wild%20Space%20components.pdf)
 
 ### Print
 
-[Wild Space Wave 1 FF-PNP ready A4.pdf](Family-friendly PnP PDF. Take it if you want to print it.)
+[Family-friendly PnP PDF. Take it if you want to print it.](/Wild%20Space%20Wave%201%20FF-PNP%20ready%20A4.pdf)
 
 ### Editing
 
-Install fronts missin on your system from "Fonts" dir.
+Install fronts missin on your system from [Fonts](/Fonts/) dir.
