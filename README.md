@@ -1,4 +1,4 @@
-# Ruleas and components for Wild Space
+# Rules and components for Wild Space
 
 ## X-Wing 2.0 Legacy original casual game mode
 
