@@ -23,7 +23,7 @@ Obstacles: 3 Asteroids, 5 Debris Clouds
 ## Planetary Ring
 Obstacles: 8 Obstacles
 
-**Setup:** Obstacles must be placed beyond range 3 of the player board edges and range  0 of the neutral board edges.
+**Setup:** Obstacles must be placed beyond range 3 of the player board edges and range 0 of the neutral board edges.
 
 
 # Scenarios:
@@ -31,7 +31,7 @@ Obstacles: 8 Obstacles
 ## Black Box
 **Setup:** 4 Objective Tokens
 
-After obstacles are placed, each player places 2 objective tokens within range 2 of their player board edge and and beyond range 3 of another objective token.
+After obstacles are placed, each player places 2 objective tokens within range 2 of their player board edge and beyond range 3 of another objective token.
 
 **End Phase:** Ships within range 1 of an opponent's objective token remove the objective token unless there is an enemy ship within range 1 of that token.
 
@@ -47,7 +47,7 @@ After placing obstacles,starting with the second player, each player places 2 ob
 **Scoring:** After calculating scores, each player gains 30 points for each defensive battery they destroyed.
 
 **Defensive Batteries:** Each objective token is considered as a remote that can be targeted by attacks. Defensive batteries attack at initiative 0 and can fire at any ship within range 2-3.
-Defensive batteries have a hull value of 5, an agility of 0 and a primary weapon value of 3. When attacking, range boni are not applied.
+Defensive batteries have a hull value of 5, an agility of 0 and a primary weapon value of 3. When attacking, range bonuses are not applied.
 
 ## Probing Problem
 **Setup:** 4 Objective Tokens, 4 matching Objective Cards
@@ -62,10 +62,9 @@ Each player places 2 objective tokens representing probes within range 2 of thei
 Probes have a hull value of 4, an agility value of 2 and a shield value of 1.
 
 ## VIP
-**Setup:** 3 Pairs of Objective Cards
+**Setup:** 3 Pairs of Objective Tokens and Obective Cards
 
-After placing forces, each player assigns each of their 3 objective cards (`Lightsaber`, `Droid`, `Blaster`) face-down to one or more of their ships. Assign the associated objective
-tokens face-down to those ships as a reminder.
+After placing forces, each player assigns each of their 3 objective cards (`Lightsaber`, `Droid`, `Blaster`) face-down to one or more of their ships. Assign the associated objective tokens face-down to those ships as a reminder.
 
 The `Lightsaber` token must be assigned, its carrier may not be placed in reserves.
 
@@ -98,4 +97,3 @@ When a ship moves through or overlaps a gas cloud, it must break all of its lock
 ## Unstable Fuel
 After a ship is destroyed, each ship at range 0–1 rolls 1 attack die. On a hit result, the ship suffers one regular damage.
 
-When a bomb detonates, consider its maximum range as 1 range higher.
