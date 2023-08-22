@@ -1,3 +1,8 @@
+function take_callback(object_spawned)
+object_spawned.setLock(true)
+end
+
+
 local state = 0
 function uiClickFunc()
 bag = getObjectFromGUID('19ea45')
@@ -9,11 +14,16 @@ tokenBag2 = bag.takeObject({guid='f68930', position = {-74.53, -0.07, 29.52}})
 tokenBag3 = bag.takeObject({guid='240db6', position = {-75.78, -0.07, 30.68}})
 tokenBag4 = bag.takeObject({guid='36132b', position = {-75.76, -0.07, 29.51}})
 
-Objective1B = bag.takeObject({guid='bb456a', position = {-68.95, -0.03, 27.20}, rotation={0, 90, 0}})
-Objective2B = bag.takeObject({guid='e7557e', position = {-66.46, -0.03, 27.20}, rotation={0, 90, 0}})
-Objective3B = bag.takeObject({guid='dfd344', position = {-64.26, -0.03, 27.20}, rotation={0, 90, 0}})
-Objective4B = bag.takeObject({guid='a09916', position = {-61.99, -0.03, 27.20}, rotation={0, 90, 0}})
-Objective5B = bag.takeObject({guid='20e4aa', position = {-59.70, -0.03, 27.20}, rotation={0, 90, 0}})
+Objective1B = bag.takeObject({guid='bb456a', position = {-68.95, -0.03, 27.20}, rotation={0, 90, 0},
+callback_function = function(obj) take_callback(obj) end})
+Objective2B = bag.takeObject({guid='e7557e', position = {-66.46, -0.03, 27.20}, rotation={0, 90, 0},
+callback_function = function(obj) take_callback(obj) end})
+Objective3B = bag.takeObject({guid='dfd344', position = {-64.26, -0.03, 27.20}, rotation={0, 90, 0},
+callback_function = function(obj) take_callback(obj) end})
+Objective4B = bag.takeObject({guid='a09916', position = {-61.99, -0.03, 27.20}, rotation={0, 90, 0},
+callback_function = function(obj) take_callback(obj) end})
+Objective5B = bag.takeObject({guid='20e4aa', position = {-59.70, -0.03, 27.20}, rotation={0, 90, 0},
+callback_function = function(obj) take_callback(obj) end})
 
 ObjectiveC1B = bag.takeObject({guid='358a2f', position = {-68.95, -0.05, 30.00}})
 ObjectiveC2B = bag.takeObject({guid='8ad27c', position = {-66.46, -0.05, 30.00}})
@@ -21,11 +31,16 @@ ObjectiveC3B = bag.takeObject({guid='ed5d2e', position = {-64.26, -0.05, 30.00}}
 ObjectiveC4B = bag.takeObject({guid='4c9e84', position = {-61.99, -0.05, 30.00}})
 ObjectiveC5B = bag.takeObject({guid='95594e', position = {-59.70, -0.05, 30.00}})
 
-Objective1W = bag.takeObject({guid='67e319', position = {-68.95, -0.05, 21.50}, rotation={0, 90, 0}})
-Objective2W = bag.takeObject({guid='e7a86f', position = {-66.56, -0.05, 21.50}, rotation={0, 90, 0}})
-Objective3W = bag.takeObject({guid='341af9', position = {-64.26, -0.05, 21.50}, rotation={0, 90, 0}})
-Objective4W = bag.takeObject({guid='430bd2', position = {-61.99, -0.05, 21.50}, rotation={0, 90, 0}})
-Objective5W = bag.takeObject({guid='97c0b8', position = {-59.70, -0.05, 21.50}, rotation={0, 90, 0}})
+Objective1W = bag.takeObject({guid='67e319', position = {-68.95, -0.05, 21.50}, rotation={0, 90, 0},
+callback_function = function(obj) take_callback(obj) end})
+Objective2W = bag.takeObject({guid='e7a86f', position = {-66.56, -0.05, 21.50}, rotation={0, 90, 0},
+callback_function = function(obj) take_callback(obj) end})
+Objective3W = bag.takeObject({guid='341af9', position = {-64.26, -0.05, 21.50}, rotation={0, 90, 0},
+callback_function = function(obj) take_callback(obj) end})
+Objective4W = bag.takeObject({guid='430bd2', position = {-61.99, -0.05, 21.50}, rotation={0, 90, 0},
+callback_function = function(obj) take_callback(obj) end})
+Objective5W = bag.takeObject({guid='97c0b8', position = {-59.70, -0.05, 21.50}, rotation={0, 90, 0},
+callback_function = function(obj) take_callback(obj) end})
 
 ObjectiveC1W = bag.takeObject({guid='a336f8', position = {-68.95, -0.05, 24.12}})
 ObjectiveC2W = bag.takeObject({guid='048001', position = {-66.56, -0.05, 24.12}})
